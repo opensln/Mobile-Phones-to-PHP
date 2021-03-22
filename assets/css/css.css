@@ -1,0 +1,231 @@
+body {
+  box-sizing: border-box;
+  margin-top: 50px 0 0 0;
+  padding: 0;
+  background-color: floralwhite;
+}
+
+.nav > li {
+  padding: 5px 15px 0px 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+tbody {
+  background-color: black;
+}
+
+#pageLogo {
+  font-size: 25px;
+  display: inline-block;
+  float: left;
+  margin:12px 0 0 10px;
+  color: white;
+  padding: 0 0 0 0;
+  position: relative;
+}
+
+.homeLink,
+#pageLogo a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.createEntryButton {
+  position: absolute;
+  margin-left: 5px;
+  top: -45px;
+  box-shadow: 5px 10px 8px #888888;
+}
+footer {
+  text-align: center;
+}
+
+thead {
+  background-color: black;
+  color: floralwhite;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td.wrappable {
+  white-space: normal;
+}
+
+.gi-size {
+  font-size: 3em;
+}
+
+td {
+  border: solid black 1px;
+}
+
+#mobilesBanner {
+  background-image: url("../images/phones banner_edited.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 240px;
+  margin-top: 60px;
+  min-width:688px;
+}
+
+.myInfoIcon {
+  font-size: 100px;
+}
+
+.createContainer {
+  margin: 80px auto 0 auto;
+  width: 40%;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 70%;
+}
+
+.detailsPanel {
+  margin: 100px auto 0 auto;
+  width: 40%;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+}
+
+.detailsLabel {
+  display: inline;
+  width: 20%;
+}
+
+.detailsPageButton {
+  display: block;
+  width: 150px;
+  margin: 0 auto 5px auto;
+}
+
+.registerForm,
+.createForm,
+.editForm,
+.loginForm {
+  width: 40%;
+  margin: 128px auto 0 auto;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.registerForm h2,
+.createForm h2,
+.editForm h2,
+.loginForm h2 {
+  margin-top: 0px;
+}
+
+.registerForm input,
+.createForm input,
+.editForm input,
+.loginForm input {
+  line-height: 25px;
+  width: 100%;
+}
+
+  @media only screen and (max-width: 768px) {
+    .detailsPanel,
+    .registerForm,
+    .createForm,
+    .editForm,
+    .loginForm {
+      width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .detailsPanel,
+    .registerForm,
+    .createForm,
+    .editForm,
+    .loginForm {
+      width: 100%;
+    }
+  }
+
+.imageInput {
+  border: solid rgb(118, 118, 118) 1px;
+  border-radius: 3px;
+  height: 30px;
+}
+.error,
+.loginToEditWarning {
+  padding: 5px;
+  border: solid 1px red;
+  border-radius: 5px;
+  list-style-type: none;
+  background-color: pink;
+}
+
+.msg.success {
+  font-size: 16px;
+  border: solid green 1px;
+  background-color: lightgreen;
+  padding: 5px;
+  border-radius: 5px;
+  position: relative;
+  top: 60px;
+}
+
+#userBoxContainer {
+  position: relative;
+  margin-top: 10px;
+}
+
+#userNameBox {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#logOutBox {
+  width: 76px;
+  background-color: #00000052;
+  border-radius: 0 0 5px 5px;
+  color: white;
+  position: absolute;
+  padding: 7px;
+  height: 35px;
+  top: 45px;
+}
+
+.signupLink a {
+  font-size: 18px;
+}
+
+.dataTables_length {
+  display: none;
+}
+
+.dataTables_wrapper {
+  /* margin-top: -31px; */
+}
+
+#myTable_filter {
+  display: none;
+  /* position: absolute;
+    top: -232px;
+    right: 15px; */
+}
+
+#logInToEdit {
+  margin-bottom: 10px;
+}
